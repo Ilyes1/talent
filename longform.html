@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Talent agency</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="logo">
+        <h1><a href="index.html">Talent Agency </a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter btn btn-top">HOME</a>
+        <a href="#" class="facebook btn btn-top">LOGIN</a>
+        <a href="#" class="instagram btn btn-top">SIGNUP</a>
+       <a ><select class="language"  name="language" id="language">
+          <option value="English">English</option>
+          <option value="French">French</option>
+          <option value="chinese">chinese</option>
+          <option value="Japanese">Japanese</option>
+        </select></a> 
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><b><a class="active" href="index.html">HOME</a></b></li>
+          <li><b><a href="about.html">MODEL</a></b></li>
+          <li><b><a href="services.html">ACTORS</a></b></li>
+          <li><b><a href="portfolio.html">MUSICIANS</a></b></li>
+          <li><b><a href="team.html">INDUSTRY MEMBERS</a></b></li>
+          <li><b><a href="pricing.html">BLOGS</a></b></li>
+          <li><b><a href="blog.html">ABOUT US</a></b></li>
+      
+            <div class="input-group" style="margin-left: 379px; float: right;">
+              <div class="form-outline">
+                <input type="search" id="search" name="search1" class="form-control" placeholder="Search" />
+              </div>
+              
+            </div>
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+      
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+  
+          <h2>Register</h2>
+  
+        </div>
+      </section>
+      <!-- End Breadcrumbs -->
+      <section class="signup mb-5">
+    
+    <div class="container bg">
+    
+        <form class="p-3">
+         
+            <div class="row">
+                <div class="col-sm-12">
+                   
+                    <label class="switch" >
+                <input type="checkbox" name="profile_status" id="profile_status">
+                <span class="slider round"></span>
+                
+              </label>
+              <label id="profile_switch" class="profile_switch mr-3">Private</label>
+            
+                </div>
+          
+                <div class="col-sm-6 form-group">
+                    <label class="labels">First Name</label>
+                    <input type="text" class="form-control regform" name="fname" id="name-f" placeholder="Enter your first name." required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label class="labels">Last Name</label>
+                    <input type="text" class="form-control regform" name="fname" id="name-f" placeholder="Enter your last name." required>
+                </div>
+                <div class="col-sm-6 form-group mt-3">
+                    <label class="labels">Username</label>
+                    <input type="text" class="form-control regform" name="uname" id="name-u" placeholder="Enter your user name." required>
+                </div>
+                <div class="col-sm-6 form-group mt-3">
+                    <label class="labels">Email</label>
+                    <input type="email" class="form-control regform" name="email" id="email" placeholder="Enter your email." required>
+                </div>
+    
+                <div class="col-sm-6 form-group mt-3">
+                    <label class="labels">Intrests</label>
+                    <select class="form-control regform">
+                      
+                <option value="1">Modeling</option>
+                <option value="2">Acting</option>
+                <option value="3">Singing</option>
+                <option value="3">Others</option>
+            </select>
+    
+                </div>
+                <div class="col-sm-6 form-group mt-3">
+                    <label class="labels">Country</label>
+                 
+                    <select class="form-control regform custom-select browser-default text-white">
+            
+                    <option value="Afghanistan">America</option>
+    <option value="Antarctica">Antarctica</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Australia">Australia</option>
+    <option value="Austria">Austria</option>
+    <option value="Canada">Canada</option>
+    <option value="Cuba">Cuba</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Germany">Germany</option>
+    <option value="Malawi">Malawi</option>
+    <option value="Malaysia">Malaysia</option>
+    <option value="Malta">Malta</option>
+    <option value="Mexico">Mexico</option>
+    <option value="Netherlands">Netherlands</option>
+    <option value="New Caledonia">New Caledonia</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="Pitcairn">Pitcairn</option>
+    <option value="Poland">Poland</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Saint Lucia">Saint Lucia</option>
+    <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+    <option value="Sierra Leone">Sierra Leone</option>
+    <option value="Singapore">Singapore</option>
+    <option value="South Africa">South Africa</option>
+    <option value="Sweden">Sweden</option>
+    <option value="Switzerland">Switzerland</option>
+    <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+    <option value="Thailand">Thailand</option>
+    <option value="United Arab Emirates">United Arab Emirates</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="United States">United States</option>
+    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                </select>
+                </div>
+                <div class="col-sm-6 form-group  mt-3">
+                    <label for="Date">Time Zone</label>
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00" class="form-control regform">
+                </div>
+    
+    
+                <div class="col-md-6 form-group mt-3"><label class="labels">Experience</label>
+                    <select class="form-control regform">
+    
+    <option value="1">6-months</option>
+    <option value="2">1-year</option>
+    <option value="3">2-years</option>
+    <option value="3">3-years</option>
+    <option value="3">More</option>
+    
+    
+    </select></div>
+    
+                <div class="col-sm-6 form-group mt-3">
+                    <label class="labels">Password</label>
+                    <input type="Password" name="password" class="form-control regform" id="pass" placeholder="Enter your password." required>
+                </div>
+    
+                <div class="col-sm-6 form-group mt-3">
+                    <label class="labels">Confirm Password</label>
+                  
+                    <input type="Password" name="cpassword" class="form-control regform" id="cpass" placeholder="Confirm your password." required>
+                </div>
+    
+    
+                <div class="col-sm-6 form-group mt-3">
+                    <label for="pass2">Upload Picture</label>
+    
+                    <input type="file" name="img" class="form-control regform" id="img" accept="image/*">
+                </div>
+    
+    
+                <div class="col-sm-6 form-group mt-3">
+                    <label for="new">Upload Video</label>
+                    <input type="file" id="viedo" name="file[]" class="form-control regform file_multi_video" accept="video/*">
+    
+                </div>
+    
+                <div class="col-sm-12 form-group mt-3">
+                   
+                    <!-- <video width="400"  controls >
+                    <source src="mov_bbb.mp4" id="video_here">
+                  Your browser does not support HTML5 video.
+                </video>
+       -->
+       <label>About</label>
+    
+       <textarea type="textarea" name="" class="form-control regform" rows="4" cols="50"></textarea>
+                  
+                </div>
+                <div class="col-sm-12">
+                    <input type="checkbox" name="chkbx" class="form-check d-inline mt-3" id="chb" required><label for="chb" class="form-check-label">&nbsp;I accept all terms and conditions.
+                </label>
+                </div>
+    
+                <div class="col-sm-12 form-group mb-0">
+                    <a class="btn regbtn">Register</a>
+                </div>
+    
+            </div>
+        </form>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <div class="logo">
+              <h1><a href="index.html">Talent Agency </a></h1>
+              <!-- Uncomment below if you prefer to use an image logo -->
+              <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+          <p>Talent Agency and Management Company</p>
+          <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+          </div>
+
+  
+          <div class="col-lg-4 col-md-6 footer-info">
+
+            
+         
+            <img src="images/globe.png" style="    height: 69%;
+            width: 39%;">
+            <p style="text-align: center;margin-right: 252px">We are global</p>
+          
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 footer-links">
+    
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Industry Professional</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Book a Model</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms & Policy</a></li>
+
+
+            </ul>
+          </div>
+<!-- 
+          <div class="col-lg-3 col-md-6 footer-info">
+
+            
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div> -->
+    
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        Copyright © 2021 <strong><span>TALENT AGENCY</span></strong>. All rights reserved.
+        Trademarks and brands are the property of their respective owners.
+
+      </div>
+     
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <script>
+
+    $(document).ready(function() {
+        $("#profile_status").click(function() {
+            var checkBoxes = $("input[name=profile_status]");
+    
+            checkBoxes.attr("checked", !checkBoxes.attr("checked"));
+            check = checkBoxes.attr("checked");
+    
+            if (check == 'checked') {
+                $("#profile_switch").html('Public');
+                // $("#profile_status").val('public');
+            } else {
+                $("#profile_switch").html('Private');
+                // $("#profile_status").val('private');
+            }
+        });
+    });
+          
+      </script>
+
+</body>
+
+</html>
